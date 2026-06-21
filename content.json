@@ -26,7 +26,7 @@
     {
       "eyebrow": "About",
       "title": "더 나은 흐름을 설계하는 개발자",
-      "description": "안녕하세요, 프론트엔드 개발자 황수지입니다.\n\nReact, TypeScript, Next.js를 중심으로 제품을 구현하며, 기능 완성도뿐 아니라 사용 맥락에 맞는 인터페이스 설계를 함께 고민합니다.",
+      "description": "안녕하세요, 프론트엔드 개발자 황수지입니다.\n\nChrome Extension 기반 북마크 관리 도구를 기획·개발·배포하며, 실제 사용자 15명 이상이 사용하는 서비스를 운영했습니다.",
       "icon": "ti-user-circle",
       "image": "./assets/about1.png",
       "reversed": false
@@ -34,7 +34,7 @@
     {
       "eyebrow": "Philosophy",
       "title": "빠른 해결보다 올바른 이해를 먼저",
-      "description": "문제를 재현하고 원인을 분리한 뒤, 최소한의 수정으로 안정적으로 해결하는 것을 중요하게 생각합니다.\n\n코드 한 줄보다 맥락 하나를 더 이해하는 개발자가 되고자 합니다.",
+      "description": "사용자가 겪는 불편을 먼저 관찰하고, 화면 구조와 데이터 흐름으로 개선하는 일을 좋아합니다.\n\n문제를 재현하고 원인을 분리한 뒤, 실제 사용 환경에서도 안정적으로 동작하는 해결책을 찾습니다.",
       "icon": "ti-bulb",
       "image": "./assets/about2.png",
       "reversed": true
@@ -42,7 +42,7 @@
     {
       "eyebrow": "Goal",
       "title": "경험에서 성장하는 개발자",
-      "description": "Chrome Extension 기반 북마크 서비스, 다양한 팀 프로젝트를 통해 상태 관리·라우팅·UI 구조 개선을 경험했습니다.\n\n앞으로도 사용자에게 더 나은 흐름과 경험을 전달하는 개발자로 성장하겠습니다.",
+      "description": "React, TypeScript, Next.js를 중심으로 상태 설계, 라우팅, UI 구조 개선을 경험했습니다.\n\n앞으로도 복잡한 기능을 사용자가 이해하기 쉬운 흐름으로 정리하는 개발자로 성장하겠습니다.",
       "icon": "ti-rocket",
       "image": "./assets/about3.png",
       "reversed": false
@@ -50,7 +50,7 @@
   ],
 
   "stats": [
-    { "value": "4회", "label": "팀 프로젝트", "icon": "ti-users" },
+    { "value": "5회", "label": "팀 프로젝트", "icon": "ti-users" },
     {
       "value": "2개",
       "label": "배포 중인\n개인 프로젝트",
@@ -64,19 +64,23 @@
   "skills": [
     {
       "label": "Frontend",
-      "items": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"]
+      "items": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"],
+      "description": "상태 설계, 컴포넌트 책임 분리, 검색·정렬 UI 구현"
     },
     {
-      "label": "State / Data",
-      "items": ["Zustand", "Tanstack Query", "Context API"]
+      "label": "Extension",
+      "items": ["Chrome Extension MV3", "Chrome Bookmarks API", "Vite"],
+      "description": "북마크 트리 조회, 데이터 동기화, HashRouter 기반 SPA 구성"
     },
     {
-      "label": "Tools",
-      "items": ["Figma", "Git", "GitHub", "Vercel", "Notion"]
+      "label": "Data / Tools",
+      "items": ["TanStack Query", "Supabase", "Git", "GitHub"],
+      "description": "API 데이터 흐름과 협업 기반 개발 경험"
     },
     {
-      "label": "AI Tools",
-      "items": ["Claude", "chatGPT", "Google AI Studio"]
+      "label": "AI Workflow",
+      "items": ["Claude", "Cursor", "GPT"],
+      "description": "문서화, 코드 리뷰, 성능 개선 검토, 리팩토링 방향 점검에 활용"
     }
   ],
 
@@ -86,6 +90,11 @@
       "title": "매력일자리 · 서울시지원교육",
       "subtitle": "AI 바이브코딩을 활용한 프론트엔드 교육 (진행중) · React, TypeScript, Zustand, Tanstack Query, Next.js, Zod, Claude",
       "subItems": [
+        {
+          "date": "2026.06 — 진행중",
+          "title": "Yummpi · 팀 프로젝트",
+          "description": "먹는 모임의 장소 찾기, 예약, 정산을 한 번에 확인하는 모임 관리 서비스"
+        },
         {
           "date": "2026.05",
           "title": "현생RPG (life-rpg) · 개인 프로젝트",
@@ -107,14 +116,30 @@
         {
           "date": "2025.06 — 2025.07",
           "title": "이때어때 (ittaeok) · 팀 프로젝트",
-          "description": "통합 스케줄링 플랫폼 · 백엔드 협업 · 🏆 최우수상 · 인기상"
+          "description": "통합 스케줄링 플랫폼 · 백엔드 협업 · 최우수상 · 인기상"
         },
         {
           "date": "2025.05 — 2025.06",
           "title": "캣츠포 (Cat's Paw) · 팀 프로젝트",
           "description": "그림으로 소통하는 실시간 드로잉 게임 서비스 · Supabase 기반"
+        },
+        {
+          "date": "2025.08",
+          "title": "Programmers Devcourse 개근상",
+          "description": "Web Front-End 과정 성실 이수"
+        },
+        {
+          "date": "2025.07",
+          "title": "최종 팀 프로젝트 수상",
+          "description": "이때어때 · 최우수상, 인기상 수상"
         }
       ]
+    },
+    {
+      "date": "2017.02",
+      "title": "상명대학교 서울캠퍼스",
+      "subtitle": "식품영양학 졸업 · 경영학 복수전공",
+      "subItems": []
     }
   ],
 
@@ -170,6 +195,28 @@
         "title": "개인화된\n북마크 관리 경험",
         "description": "폴더 색상 설정, NEW 배지, 드래그 앤 드롭, 다크모드 테마 전환으로 사용자가 자신만의 방식으로 북마크를 정리할 수 있는 경험을 제공합니다.",
         "links": []
+      },
+      {
+        "step": "technical",
+        "image": "./assets/feature1.png",
+        "eyebrow": "Problem Solving",
+        "title": "실제 사용 환경에서\n안정적으로 동작하도록",
+        "description": "배포 후 마주친 언어 설정, 라우팅, 데이터 동기화 문제를 원인 단위로 나누고 Chrome Extension 환경에 맞는 방식으로 해결했습니다.",
+        "decisions": [
+          {
+            "title": "Locale-safe Folder Detection",
+            "description": "브라우저 언어에 따라 달라지는 폴더 title 대신 Chrome Bookmarks API의 id 기준으로 루트 폴더를 구분했습니다."
+          },
+          {
+            "title": "Extension Routing",
+            "description": "Chrome Extension 정적 파일 환경에서 BrowserRouter 새로고침 오류를 HashRouter로 해결했습니다."
+          },
+          {
+            "title": "Data Sync",
+            "description": "북마크 추가·수정·삭제·이동 후 트리 데이터를 다시 조회해 화면 상태를 동기화했습니다."
+          }
+        ],
+        "links": []
       }
     ],
     "result": {
@@ -195,9 +242,29 @@
   "otherProjects": [
     {
       "type": "team",
+      "name": "Yummpi",
+      "description": "먹는 모임의 장소 찾기, 예약, 정산을 한 번에 확인하는 모임 관리 서비스",
+      "tags": ["진행중", "Design System", "Deploy"],
+      "roles": [
+        "디자인 시스템 설계",
+        "인프라 및 팀 프로젝트 세팅",
+        "송금하기, 알림 도메인 담당",
+        "서비스 배포 담당"
+      ],
+      "icon": "ti-tools-kitchen-2",
+      "links": []
+    },
+    {
+      "type": "team",
       "name": "이때어때",
       "description": "일정 조율부터 장소 선정까지 돕는 통합 스케줄링 플랫폼",
       "tags": ["React", "TypeScript", "협업"],
+      "roles": [
+        "ConfirmBox, Header, Tip 공통 UI 컴포넌트 구현",
+        "마이페이지 UI 구현",
+        "Google Calendar ID 등록 화면 구현",
+        "Calendar ID 기반 공개 일정 조회 방식 논의 참여"
+      ],
       "icon": "ti-calendar",
       "image": "./assets/team-project1.png",
       "links": [
@@ -218,6 +285,12 @@
       "name": "캣츠포",
       "description": "그림으로 소통하고 추리하는 커뮤니티, 실시간 드로잉 게임 서비스",
       "tags": ["React", "Supabase", "실시간"],
+      "roles": [
+        "로고, 아이콘, 배경 등 UI 요소 디자인",
+        "커뮤니티 페이지 구현",
+        "최신순·인기순 정렬, 게시물 검색",
+        "무한스크롤, 좋아요 기능 구현"
+      ],
       "icon": "ti-pencil",
       "image": "./assets/team-project2.png",
       "links": [
@@ -238,6 +311,10 @@
       "name": "현생RPG",
       "description": "현실 세계의 일정을 게임화하여 기록하는 웹 애플리케이션",
       "tags": ["Claude", "React", "TypeScript"],
+      "roles": [
+        "일정 기록 흐름 설계",
+        "게임화된 인터랙션 구현"
+      ],
       "icon": "ti-bulb",
       "image": "./assets/personal-project1.png",
       "links": [
