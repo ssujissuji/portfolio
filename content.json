@@ -79,7 +79,7 @@
     },
     {
       "label": "AI Workflow",
-      "items": ["Claude", "Cursor", "GPT"],
+      "items": ["Claude", "Codex", "GPT"],
       "description": "문서화, 코드 리뷰, 성능 개선 검토, 리팩토링 방향 점검에 활용"
     }
   ],
