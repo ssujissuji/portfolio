@@ -9,40 +9,40 @@
   ],
 
   "hero": {
-    "eyebrow": "Frontend Developer",
+    "eyebrow": "Frontend Engineer",
     "name": "황수지",
-    "subtitle": "코드로 경험을 설계합니다.",
-    "description": "사용자가 느끼는 모든 순간을 코드로 설계하는 개발자입니다."
+    "subtitle": "제품의 흐름부터 운영까지 설계합니다.",
+    "description": "사용자의 불편을 이해하기 쉬운 화면과 안정적인 서비스로 해결하는 개발자입니다."
   },
 
   "statement": {
     "line1": "단순히 동작하는 코드가 아닌,",
     "highlight": "사람을 움직이는",
     "line2": "제품을 만듭니다.",
-    "sub": "React와 TypeScript를 중심으로, 성능과 경험 모두를 놓치지 않습니다."
+    "sub": "React와 Next.js를 중심으로, 프론트엔드부터 실시간 통신과 배포 운영까지 경험했습니다."
   },
 
   "about": [
     {
       "eyebrow": "About",
-      "title": "더 나은 흐름을 설계하는 개발자",
-      "description": "안녕하세요, 프론트엔드 개발자 황수지입니다.\n\nChrome Extension 기반 북마크 관리 도구를 기획·개발·배포하며, 실제 사용자 15명 이상이 사용하는 서비스를 운영했습니다.",
+      "title": "사용자의 불편을 제품으로 해결합니다",
+      "description": "사용자가 어디에서 막히고 어떤 정보가 필요한지 먼저 살핍니다.\n\n5인 팀으로 모임 관리 PWA Yummpi를 개발하며 송금·알림 기능부터 프로젝트 기반과 배포 운영까지 경험했습니다.",
       "icon": "ti-user-circle",
       "image": "./assets/about1.png",
       "reversed": false
     },
     {
       "eyebrow": "Philosophy",
-      "title": "빠른 해결보다 올바른 이해를 먼저",
-      "description": "사용자가 겪는 불편을 먼저 관찰하고, 화면 구조와 데이터 흐름으로 개선하는 일을 좋아합니다.\n\n문제를 재현하고 원인을 분리한 뒤, 실제 사용 환경에서도 안정적으로 동작하는 해결책을 찾습니다.",
+      "title": "제약을 이해하고 대안을 비교합니다",
+      "description": "프로젝트의 목표와 실행 환경을 먼저 파악하고 여러 대안을 일정·안정성·사용성을 기준으로 비교합니다.\n\n운영 장애는 한 가지 원인으로 단정하지 않고 연결, 인프라, 인증 경계를 나누어 추적합니다.",
       "icon": "ti-bulb",
       "image": "./assets/about2.png",
       "reversed": true
     },
     {
-      "eyebrow": "Goal",
-      "title": "경험에서 성장하는 개발자",
-      "description": "React, TypeScript, Next.js를 중심으로 상태 설계, 라우팅, UI 구조 개선을 경험했습니다.\n\n앞으로도 복잡한 기능을 사용자가 이해하기 쉬운 흐름으로 정리하는 개발자로 성장하겠습니다.",
+      "eyebrow": "Workflow",
+      "title": "문서와 검증으로 맥락을 공유합니다",
+      "description": "PRD, WORK, HISTORY, CHANGELOG로 목표와 변경 맥락을 기록해 팀과 공유합니다.\n\nAI의 제안은 공식 문서와 실제 동작을 기준으로 검증하고 최종 판단과 결과 확인은 직접 수행합니다.",
       "icon": "ti-rocket",
       "image": "./assets/about3.png",
       "reversed": false
@@ -50,68 +50,75 @@
   ],
 
   "stats": [
-    { "value": "5회", "label": "팀 프로젝트", "icon": "ti-users" },
+    { "value": "5인", "label": "Yummpi\n팀 프로젝트", "icon": "ti-users" },
     {
-      "value": "2개",
-      "label": "배포 중인\n개인 프로젝트",
+      "value": "250+",
+      "label": "Bookmark\n누적 설치",
       "icon": "ti-rocket"
     },
+    { "value": "2개", "label": "운영 서비스", "icon": "ti-cloud-check" },
     { "value": "2회", "label": "최우수상", "icon": "ti-trophy" },
-    { "value": "1회", "label": "인기상", "icon": "ti-heart" },
-    { "value": "1회", "label": "개근상", "icon": "ti-calendar-check" }
+    { "value": "1회", "label": "인기상", "icon": "ti-heart" }
   ],
 
   "skills": [
     {
       "label": "Frontend",
       "items": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"],
-      "description": "상태 설계, 컴포넌트 책임 분리, 검색·정렬 UI 구현"
+      "description": "App Router 기반 화면 구성, 상태·컴포넌트 책임 분리, 로딩·오류·빈 상태를 고려한 UI 구현"
     },
     {
-      "label": "Extension",
-      "items": ["Chrome Extension MV3", "Chrome Bookmarks API", "Vite"],
-      "description": "북마크 트리 조회, 데이터 동기화, HashRouter 기반 SPA 구성"
+      "label": "Backend / Realtime",
+      "items": ["Node.js", "Prisma", "PostgreSQL", "Redis", "BullMQ", "Socket.io"],
+      "description": "API와 비동기 작업, 실시간 통신, 알림 큐·워커 구성 경험"
     },
     {
-      "label": "Data / Tools",
-      "items": ["TanStack Query", "Supabase", "Git", "GitHub"],
-      "description": "API 데이터 흐름과 협업 기반 개발 경험"
+      "label": "Platform / Quality",
+      "items": ["Turborepo", "pnpm", "Docker", "AWS", "Vercel", "Vitest", "Playwright", "CI"],
+      "description": "모노레포 기반 구성, PWA, 테스트와 빌드 파이프라인, 운영 환경 배포·장애 분석"
     },
     {
-      "label": "AI Workflow",
-      "items": ["Claude", "Cursor", "GPT"],
-      "description": "문서화, 코드 리뷰, 성능 개선 검토, 리팩토링 방향 점검에 활용"
+      "label": "Workflow / Tools",
+      "items": ["Git", "GitHub", "Zod", "TanStack Query", "Zustand", "Claude", "Codex", "GPT"],
+      "description": "문서화된 맥락을 기반으로 구현·리뷰하고 공식 문서와 실제 동작으로 결과를 검증"
     }
   ],
 
   "timeline": [
     {
-      "date": "2026.05 — 2026.06(진행중)",
-      "title": "매력일자리 · 서울시지원교육",
-      "subtitle": "AI 바이브코딩을 활용한 프론트엔드 교육 (진행중) · React, TypeScript, Zustand, Tanstack Query, Next.js, Zod, Claude",
+      "date": "2026.06.02 — 2026.06.30",
+      "title": "Yummpi · 5인 팀 프로젝트",
+      "subtitle": "모임 관리 PWA · 프론트엔드와 백엔드 · 송금·알림·플랫폼·인프라 담당",
       "subItems": [
         {
-          "date": "2026.06 — 진행중",
-          "title": "Yummpi · 팀 프로젝트",
-          "description": "먹는 모임의 장소 찾기, 예약, 정산을 한 번에 확인하는 모임 관리 서비스"
-        },
-        {
-          "date": "2026.05",
-          "title": "현생RPG (life-rpg) · 개인 프로젝트",
-          "description": "현실 세계의 일정을 게임화하여 기록하는 웹 애플리케이션 · Claude"
+          "date": "My Role",
+          "title": "디자인 시스템 · 송금 · 알림 · 배포",
+          "description": "Turborepo와 CI 구성, PWA, Vercel·AWS ECS Fargate 운영 배포"
         }
       ]
     },
     {
-      "date": "2025.11 — 2026.01",
+      "date": "2026.05.06 — 2026.07.02",
+      "title": "매력일자리 · AI 바이브코딩 프론트엔드 교육",
+      "subtitle": "React, TypeScript, Next.js 기반 구현과 서버 구축·연동 · 수료 예정",
+      "subItems": [
+        {
+          "date": "2026.05",
+          "title": "현생RPG · 개인 프로젝트",
+          "description": "현실의 일정을 게임화해 기록하는 웹 애플리케이션"
+        }
+      ]
+    },
+    {
+      "date": "2025.11.04 — 2026.01.23",
       "title": "Bookmark Extension · 개인 프로젝트",
-      "subtitle": "Chrome Bookmark API 기반 북마크 관리 확장 프로그램 · 15명+ 사용",
+      "subtitle": "Chrome Bookmarks API 기반 북마크 관리 확장 프로그램 · 누적 설치 250+",
       "subItems": []
     },
     {
-      "date": "2025.03 — 2025.08",
+      "date": "2025.03.04 — 2025.08.04",
       "title": "프로그래머스 데브코스 · Web Front-End",
-      "subtitle": "HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS, Next.js",
+      "subtitle": "React, TypeScript, Next.js 학습 · 총 4개 팀 프로젝트 · 개근상",
       "subItems": [
         {
           "date": "2025.06 — 2025.07",
@@ -122,117 +129,100 @@
           "date": "2025.05 — 2025.06",
           "title": "캣츠포 (Cat's Paw) · 팀 프로젝트",
           "description": "그림으로 소통하는 실시간 드로잉 게임 서비스 · Supabase 기반"
-        },
-        {
-          "date": "2025.08",
-          "title": "Programmers Devcourse 개근상",
-          "description": "Web Front-End 과정 성실 이수"
-        },
-        {
-          "date": "2025.07",
-          "title": "최종 팀 프로젝트 수상",
-          "description": "이때어때 · 최우수상, 인기상 수상"
         }
       ]
-    },
-    {
-      "date": "2017.02",
-      "title": "상명대학교 서울캠퍼스",
-      "subtitle": "식품영양학 졸업 · 경영학 복수전공",
-      "subItems": []
     }
   ],
 
   "featuredProject": {
     "label": "Featured Project",
-    "title": "Bookmark Manager Extension",
-    "subtitle": "Chrome 북마크를 한눈에 탐색하고 정리하는 브라우저 확장 프로그램",
+    "title": "Yummpi",
+    "subtitle": "장소 찾기부터 예약·정산·송금까지 한 번에 이어지는 모임 관리 PWA",
     "steps": [
       {
         "step": "intro",
-        "image": "./assets/intro.jpg",
-        "eyebrow": "Intro",
-        "title": "흩어진 북마크를\n한눈에 탐색하다",
-        "description": "Chrome 북마크를 폴더 기준으로 수집·시각화하고, 검색·정렬·폴더 이동을 제공하는 브라우저 확장 프로그램입니다. 15명 이상의 실제 사용자에게 배포되어 운영 중입니다.",
+        "image": "./assets/yummpi-intro.png",
+        "eyebrow": "Overview",
+        "title": "먹는 모임의 전 과정을\n하나의 흐름으로",
+        "description": "5인 팀으로 프론트엔드와 백엔드를 함께 개발했습니다. 모임 생성부터 장소 추천·실시간 투표·예약·OCR 정산·송금까지 흩어진 운영 과정을 하나의 PWA로 연결했습니다.",
         "links": [
           {
             "label": "GitHub",
-            "url": "https://github.com/ssujissuji/bookmark-service",
+            "url": "https://github.com/ezen04/yummpi",
             "icon": "ti-brand-github"
           },
           {
-            "label": "Chrome Store",
-            "url": "https://chromewebstore.google.com/detail/gibfpdopdjmfjfablclemgpbfgihlbne",
+            "label": "Service",
+            "url": "https://yummpi.com",
             "icon": "ti-external-link"
           }
         ]
       },
       {
         "step": "problem",
-        "images": ["./assets/problem1.png", "./assets/problem2.png"],
-        "eyebrow": "Problem",
-        "title": "기본 북마크 관리자의\n불편한 탐색 흐름",
-        "description": "Chrome 기본 북마크 도구는 탐색 흐름이 깊고, 수정·이동·검색 액션이 직관적이지 않았습니다. 저장만 하고 다시 들여다보지 않는 패턴이 반복되었습니다.",
+        "images": ["./assets/yummpi-meeting.png", "./assets/yummpi-vote.png"],
+        "eyebrow": "Product Flow",
+        "title": "장소 선정부터 정산까지\n끊기지 않도록",
+        "description": "모임 상세 화면에서 다음 행동을 바로 확인하고, 장소 추천·실시간 투표·예약·정산·송금 단계가 자연스럽게 이어지도록 서비스 흐름을 구성했습니다.",
         "links": []
       },
       {
         "step": "approach",
-        "hidden": true,
-        "image": "./assets/approach.png",
-        "eyebrow": "Approach",
-        "title": "한 화면에서\n모든 관리 흐름을",
-        "description": "북마크 데이터를 폴더와 링크 단위로 재구성하고, 검색·정렬·이동 흐름을 하나의 화면에서 처리하도록 설계했습니다. 탐색 비용을 줄이고 정리 동선을 짧게 만드는 것이 핵심 목표였습니다.",
+        "image": "./assets/yummpi-architecture.png",
+        "eyebrow": "My Role",
+        "title": "도메인 구현과 플랫폼을\n함께 책임지다",
+        "description": "디자인 시스템과 Turborepo·pnpm 기반 프로젝트 구조를 설계하고, 송금·알림 도메인과 공용 Zod 스키마, Docker Compose, Prisma, NextAuth, CI 파이프라인을 구성했습니다.",
         "links": []
       },
       {
         "step": "feature",
         "images": [
-          "./assets/feature1.png",
-          "./assets/feature2.png",
-          "./assets/feature3.jpg"
+          "./assets/yummpi-settlement.png",
+          "./assets/yummpi-transfer.png",
+          "./assets/yummpi-notification.png"
         ],
-        "eyebrow": "Core Feature",
-        "title": "개인화된\n북마크 관리 경험",
-        "description": "폴더 색상 설정, NEW 배지, 드래그 앤 드롭, 다크모드 테마 전환으로 사용자가 자신만의 방식으로 북마크를 정리할 수 있는 경험을 제공합니다.",
+        "eyebrow": "Payment & Notification",
+        "title": "정산 결과가 실제 송금\n완료로 이어지도록",
+        "description": "역할별 송금 정책과 접근 가드, 송금 현황 UI를 구현했습니다. BullMQ 기반 독촉 큐·워커, 인앱 알림 조회·읽음 처리, 이메일 알림과 만료된 웹푸시 구독 정리까지 연결했습니다.",
         "links": []
       },
       {
         "step": "technical",
-        "image": "./assets/feature1.png",
-        "eyebrow": "Problem Solving",
-        "title": "실제 사용 환경에서\n안정적으로 동작하도록",
-        "description": "배포 후 마주친 언어 설정, 라우팅, 데이터 동기화 문제를 원인 단위로 나누고 Chrome Extension 환경에 맞는 방식으로 해결했습니다.",
+        "image": "./assets/yummpi-architecture.png",
+        "eyebrow": "Operations",
+        "title": "운영 환경의 문제를\n경계별로 나누어 해결",
+        "description": "Vercel과 AWS, Redis, PostgreSQL이 연결된 환경에서 발생한 장애를 재현하고 원인을 분리해 서비스 안정성을 개선했습니다.",
         "decisions": [
           {
-            "title": "Locale-safe Folder Detection",
-            "description": "브라우저 언어에 따라 달라지는 폴더 title 대신 Chrome Bookmarks API의 id 기준으로 루트 폴더를 구분했습니다."
+            "title": "WebSocket Recovery",
+            "description": "실시간 투표 장애를 ALB HTTP/2, Redis 연결·한도, 쿠키 도메인 문제로 나누어 추적하고 연결을 복구했습니다."
           },
           {
-            "title": "Extension Routing",
-            "description": "Chrome Extension 정적 파일 환경에서 BrowserRouter 새로고침 오류를 HashRouter로 해결했습니다."
+            "title": "Database Stability",
+            "description": "서버리스 환경의 DB 커넥션 풀 고갈 원인을 분석하고 Prisma Accelerate로 전환해 운영 안정성을 높였습니다."
           },
           {
-            "title": "Data Sync",
-            "description": "북마크 추가·수정·삭제·이동 후 트리 데이터를 다시 조회해 화면 상태를 동기화했습니다."
+            "title": "CI & Deployment",
+            "description": "typecheck·lint·test·build·Docker build를 수행하는 CI와 Vercel·AWS ECS Fargate 배포 환경을 구성했습니다."
           }
         ],
         "links": []
       }
     ],
     "result": {
-      "image": "./assets/result.png",
+      "image": "./assets/yummpi-result.png",
       "eyebrow": "Result",
-      "title": "단순 조회를 넘어\n개인화 생산성 도구로",
-      "description": "단순 저장 기능에서 실제로 탐색하고 정리하는 도구로 확장했습니다. 기존 사용자들이 서비스 공유 후 현재까지 지속적으로 사용하고 있습니다.",
+      "title": "기능 구현을 넘어\n배포와 운영까지",
+      "description": "Serwist 기반 PWA 셸과 설치 유도 UI를 구현하고 Vercel, AWS ECS Fargate, RDS, Upstash Redis를 연결했습니다. 테스트와 CI를 통해 팀이 같은 기준으로 기능을 검증할 수 있는 환경을 만들었습니다.",
       "links": [
         {
           "label": "GitHub",
-          "url": "https://github.com/ssujissuji/bookmark-service",
+          "url": "https://github.com/ezen04/yummpi",
           "icon": "ti-brand-github"
         },
         {
-          "label": "Chrome Store",
-          "url": "https://chromewebstore.google.com/detail/gibfpdopdjmfjfablclemgpbfgihlbne",
+          "label": "Service",
+          "url": "https://yummpi.com",
           "icon": "ti-external-link"
         }
       ]
@@ -242,23 +232,9 @@
   "otherProjects": [
     {
       "type": "team",
-      "name": "Yummpi",
-      "description": "먹는 모임의 장소 찾기, 예약, 정산을 한 번에 확인하는 모임 관리 서비스",
-      "tags": ["진행중", "Design System", "Deploy"],
-      "roles": [
-        "디자인 시스템 설계",
-        "인프라 및 팀 프로젝트 세팅",
-        "송금하기, 알림 도메인 담당",
-        "서비스 배포 담당"
-      ],
-      "icon": "ti-tools-kitchen-2",
-      "links": []
-    },
-    {
-      "type": "team",
       "name": "이때어때",
       "description": "일정 조율부터 장소 선정까지 돕는 통합 스케줄링 플랫폼",
-      "tags": ["React", "TypeScript", "협업"],
+      "tags": ["React", "TypeScript", "TanStack Query"],
       "roles": [
         "ConfirmBox, Header, Tip 공통 UI 컴포넌트 구현",
         "마이페이지 UI 구현",
@@ -302,6 +278,32 @@
         {
           "label": "Demo",
           "url": "https://catspaw-drawing.netlify.app/",
+          "icon": "ti-external-link"
+        }
+      ]
+    },
+    {
+      "type": "personal",
+      "name": "Bookmark Extension",
+      "description": "Chrome 북마크를 넓은 화면에서 탐색·검색·정리하는 관리 도구 · 누적 설치 250+",
+      "tags": ["React", "TypeScript", "Chrome MV3"],
+      "roles": [
+        "재귀 유틸로 중첩된 북마크 트리 탐색",
+        "검색·정렬·최근 조회와 폴더 관리 기능 구현",
+        "데이터 변경 이후 화면 상태 동기화",
+        "언어별 title 오류를 폴더 id 기준으로 해결"
+      ],
+      "icon": "ti-bookmarks",
+      "image": "./assets/intro.jpg",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ssujissuji/bookmark-service",
+          "icon": "ti-brand-github"
+        },
+        {
+          "label": "Chrome Store",
+          "url": "https://chromewebstore.google.com/detail/gibfpdopdjmfjfablclemgpbfgihlbne",
           "icon": "ti-external-link"
         }
       ]
