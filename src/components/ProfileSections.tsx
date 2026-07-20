@@ -11,7 +11,7 @@ export function Hero({ content }: { content: PortfolioContent['hero'] }) {
       <section className="hero" id="about">
         <div className="hero-eyebrow reveal">{content.eyebrow}</div>
         <div className="hero-avatar reveal d1">
-          <img src="/assets/profile.png" alt="황수지 프로필" />
+          <img src="assets/profile.png" alt="황수지 프로필" />
         </div>
         <div className="hero-name reveal d1">{content.name}</div>
         <div className="hero-sub reveal d2">{content.subtitle}</div>
