@@ -158,93 +158,94 @@
 
   "featuredProject": {
     "label": "Featured Project",
-    "title": "Yummpi",
-    "subtitle": "장소 찾기부터 예약·정산·송금까지 한 번에 이어지는 모임 관리 PWA",
+    "title": "Bookmark Manager Extension",
+    "subtitle": "Chrome 북마크를 한눈에 탐색하고 정리하는 브라우저 확장 프로그램",
     "steps": [
       {
         "step": "intro",
-        "image": "./assets/yummpi-intro.png",
-        "eyebrow": "Overview",
-        "title": "먹는 모임의 전 과정을\n하나의 흐름으로",
-        "description": "5인 팀으로 프론트엔드와 백엔드를 함께 개발했습니다. 모임 생성부터 장소 추천·실시간 투표·예약·OCR 정산·송금까지 흩어진 운영 과정을 하나의 PWA로 연결했습니다.",
+        "image": "./assets/intro.jpg",
+        "eyebrow": "Intro",
+        "title": "흩어진 북마크를\n한눈에 탐색하다",
+        "description": "Chrome 북마크를 폴더 기준으로 수집·시각화하고, 검색·정렬·폴더 이동을 제공하는 브라우저 확장 프로그램입니다. 15명 이상의 실제 사용자에게 배포되어 운영 중입니다.",
         "links": [
           {
             "label": "GitHub",
-            "url": "https://github.com/ezen04/yummpi",
+            "url": "https://github.com/ssujissuji/bookmark-service",
             "icon": "ti-brand-github"
           },
           {
-            "label": "Service",
-            "url": "https://yummpi.com",
+            "label": "Chrome Store",
+            "url": "https://chromewebstore.google.com/detail/gibfpdopdjmfjfablclemgpbfgihlbne",
             "icon": "ti-external-link"
           }
         ]
       },
       {
         "step": "problem",
-        "images": ["./assets/yummpi-meeting.png", "./assets/yummpi-vote.png"],
-        "eyebrow": "Product Flow",
-        "title": "장소 선정부터 정산까지\n끊기지 않도록",
-        "description": "모임 상세 화면에서 다음 행동을 바로 확인하고, 장소 추천·실시간 투표·예약·정산·송금 단계가 자연스럽게 이어지도록 서비스 흐름을 구성했습니다.",
+        "images": ["./assets/problem1.png", "./assets/problem2.png"],
+        "eyebrow": "Problem",
+        "title": "기본 북마크 관리자의\n불편한 탐색 흐름",
+        "description": "Chrome 기본 북마크 도구는 탐색 흐름이 깊고, 수정·이동·검색 액션이 직관적이지 않았습니다. 저장만 하고 다시 들여다보지 않는 패턴이 반복되었습니다.",
         "links": []
       },
       {
         "step": "approach",
-        "image": "./assets/yummpi-architecture.png",
-        "eyebrow": "My Role",
-        "title": "도메인 구현과 플랫폼을\n함께 책임지다",
-        "description": "디자인 시스템과 Turborepo·pnpm 기반 프로젝트 구조를 설계하고, 송금·알림 도메인과 공용 Zod 스키마, Docker Compose, Prisma, NextAuth, CI 파이프라인을 구성했습니다.",
+        "hidden": true,
+        "image": "./assets/approach.png",
+        "eyebrow": "Approach",
+        "title": "한 화면에서\n모든 관리 흐름을",
+        "description": "북마크 데이터를 폴더와 링크 단위로 재구성하고, 검색·정렬·이동 흐름을 하나의 화면에서 처리하도록 설계했습니다. 탐색 비용을 줄이고 정리 동선을 짧게 만드는 것이 핵심 목표였습니다.",
         "links": []
       },
       {
         "step": "feature",
         "images": [
-          "./assets/yummpi-settlement.png",
-          "./assets/yummpi-transfer.png",
-          "./assets/yummpi-notification.png"
+          "./assets/feature1.png",
+          "./assets/feature2.png",
+          "./assets/feature3.jpg"
         ],
-        "eyebrow": "Payment & Notification",
-        "title": "정산 결과가 실제 송금\n완료로 이어지도록",
-        "description": "역할별 송금 정책과 접근 가드, 송금 현황 UI를 구현했습니다. BullMQ 기반 독촉 큐·워커, 인앱 알림 조회·읽음 처리, 이메일 알림과 만료된 웹푸시 구독 정리까지 연결했습니다.",
+        "eyebrow": "Core Feature",
+        "title": "개인화된\n북마크 관리 경험",
+        "description": "폴더 색상 설정, NEW 배지, 드래그 앤 드롭, 다크모드 테마 전환으로 사용자가 자신만의 방식으로 북마크를 정리할 수 있는 경험을 제공합니다.",
         "links": []
       },
       {
         "step": "technical",
-        "image": "./assets/yummpi-architecture.png",
-        "eyebrow": "Operations",
-        "title": "운영 환경의 문제를\n경계별로 나누어 해결",
-        "description": "Vercel과 AWS, Redis, PostgreSQL이 연결된 환경에서 발생한 장애를 재현하고 원인을 분리해 서비스 안정성을 개선했습니다.",
+        "image": "./assets/feature1.png",
+        "eyebrow": "Problem Solving",
+        "title": "실제 사용 환경에서\n안정적으로 동작하도록",
+        "description": "배포 후 마주친 언어 설정, 라우팅, 데이터 동기화 문제를 원인 단위로 나누고 Chrome Extension 환경에 맞는 방식으로 해결했습니다.",
         "decisions": [
           {
-            "title": "WebSocket Recovery",
-            "description": "실시간 투표 장애를 ALB HTTP/2, Redis 연결·한도, 쿠키 도메인 문제로 나누어 추적하고 연결을 복구했습니다."
+            "title": "Locale-safe Folder Detection",
+            "description": "브라우저 언어에 따라 달라지는 폴더 title 대신 Chrome Bookmarks API의 id 기준으로 루트 폴더를 구분했습니다."
           },
           {
-            "title": "Database Stability",
-            "description": "서버리스 환경의 DB 커넥션 풀 고갈 원인을 분석하고 Prisma Accelerate로 전환해 운영 안정성을 높였습니다."
+            "title": "Extension Routing",
+            "description": "Chrome Extension 정적 파일 환경에서 BrowserRouter 새로고침 오류를 HashRouter로 해결했습니다."
           },
           {
-            "title": "CI & Deployment",
-            "description": "typecheck·lint·test·build·Docker build를 수행하는 CI와 Vercel·AWS ECS Fargate 배포 환경을 구성했습니다."
+            "title": "Data Sync",
+            "description": "북마크 추가·수정·삭제·이동 후 트리 데이터를 다시 조회해 화면 상태를 동기화했습니다."
           }
         ],
         "links": []
       }
     ],
     "result": {
-      "image": "./assets/yummpi-result.png",
+      "image": "./assets/result.png",
       "eyebrow": "Result",
-      "title": "기능 구현을 넘어\n배포와 운영까지",
-      "description": "Serwist 기반 PWA 셸과 설치 유도 UI를 구현하고 Vercel, AWS ECS Fargate, RDS, Upstash Redis를 연결했습니다. 테스트와 CI를 통해 팀이 같은 기준으로 기능을 검증할 수 있는 환경을 만들었습니다.",
+      "title": "단순 조회를 넘어\n개인화 생산성 도구로",
+      "description": "단순 저장 기능에서 실제로 탐색하고 정리하는 도구로 확장했습니다. 기존 사용자들이 서비스 공유 후 현재까지 지속적으로 사용하고 있습니다.",
       "links": [
         {
           "label": "GitHub",
-          "url": "https://github.com/ezen04/yummpi",
+          "url": "https://github.com/ssujissuji/bookmark-service",
           "icon": "ti-brand-github"
         },
         {
-          "label": "Service",
-          "url": "https://yummpi.com",
+          "label": "Chrome Store",
+          "url": "https://chromewebstore.google.com/detail/gibfpdopdjmfjfablclemgpbfgihlbne",
           "icon": "ti-external-link"
         }
       ]
