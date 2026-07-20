@@ -50,7 +50,11 @@
   ],
 
   "stats": [
-    { "value": "5인", "label": "Yummpi\n팀 프로젝트", "icon": "ti-users" },
+    {
+      "value": "5회",
+      "label": "4인 이상\n 팀프로젝트 경험",
+      "icon": "ti-users"
+    },
     {
       "value": "250+",
       "label": "Bookmark\n누적 설치",
@@ -69,39 +73,57 @@
     },
     {
       "label": "Backend / Realtime",
-      "items": ["Node.js", "Prisma", "PostgreSQL", "Redis", "BullMQ", "Socket.io"],
+      "items": [
+        "Node.js",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+        "Socket.io"
+      ],
       "description": "API와 비동기 작업, 실시간 통신, 알림 큐·워커 구성 경험"
     },
     {
       "label": "Platform / Quality",
-      "items": ["Turborepo", "pnpm", "Docker", "AWS", "Vercel", "Vitest", "Playwright", "CI"],
+      "items": [
+        "Turborepo",
+        "pnpm",
+        "Docker",
+        "AWS",
+        "Vercel",
+        "Vitest",
+        "Playwright",
+        "CI"
+      ],
       "description": "모노레포 기반 구성, PWA, 테스트와 빌드 파이프라인, 운영 환경 배포·장애 분석"
     },
     {
       "label": "Workflow / Tools",
-      "items": ["Git", "GitHub", "Zod", "TanStack Query", "Zustand", "Claude", "Codex", "GPT"],
+      "items": [
+        "Git",
+        "GitHub",
+        "Zod",
+        "TanStack Query",
+        "Zustand",
+        "Claude",
+        "Codex",
+        "GPT"
+      ],
       "description": "문서화된 맥락을 기반으로 구현·리뷰하고 공식 문서와 실제 동작으로 결과를 검증"
     }
   ],
 
   "timeline": [
     {
-      "date": "2026.06.02 — 2026.06.30",
-      "title": "Yummpi · 5인 팀 프로젝트",
-      "subtitle": "모임 관리 PWA · 프론트엔드와 백엔드 · 송금·알림·플랫폼·인프라 담당",
-      "subItems": [
-        {
-          "date": "My Role",
-          "title": "디자인 시스템 · 송금 · 알림 · 배포",
-          "description": "Turborepo와 CI 구성, PWA, Vercel·AWS ECS Fargate 운영 배포"
-        }
-      ]
-    },
-    {
       "date": "2026.05.06 — 2026.07.02",
       "title": "매력일자리 · AI 바이브코딩 프론트엔드 교육",
       "subtitle": "React, TypeScript, Next.js 기반 구현과 서버 구축·연동 · 수료 예정",
       "subItems": [
+        {
+          "date": "2026.06.02 — 2026.06.30",
+          "title": "Yummpi · 5인 팀 프로젝트",
+          "description": "모임 관리 PWA · 프론트엔드와 백엔드 · 디자인 시스템·송금·알림·배포 담당"
+        },
         {
           "date": "2026.05",
           "title": "현생RPG · 개인 프로젝트",
@@ -313,10 +335,7 @@
       "name": "현생RPG",
       "description": "현실 세계의 일정을 게임화하여 기록하는 웹 애플리케이션",
       "tags": ["Claude", "React", "TypeScript"],
-      "roles": [
-        "일정 기록 흐름 설계",
-        "게임화된 인터랙션 구현"
-      ],
+      "roles": ["일정 기록 흐름 설계", "게임화된 인터랙션 구현"],
       "icon": "ti-bulb",
       "image": "./assets/personal-project1.png",
       "links": [
