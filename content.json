@@ -117,7 +117,7 @@
     {
       "date": "2026.05.06 — 2026.07.02",
       "title": "매력일자리 · AI 바이브코딩 프론트엔드 교육",
-      "subtitle": "React, TypeScript, Next.js 기반 구현과 서버 구축·연동 · 수료 예정",
+      "subtitle": "React, TypeScript, Next.js 기반 구현과 서버 구축·연동",
       "subItems": [
         {
           "date": "2026.06.02 — 2026.06.30",
@@ -253,6 +253,32 @@
   },
 
   "otherProjects": [
+    {
+      "type": "team",
+      "name": "Yummpi",
+      "description": "장소 추천부터 예약·정산·송금까지 이어지는 모임 관리 PWA",
+      "tags": ["Next.js", "TypeScript", "PWA"],
+      "roles": [
+        "디자인 시스템과 Turborepo·pnpm 모노레포 구조 설계",
+        "송금·알림 도메인과 공용 Zod 스키마 구현",
+        "BullMQ 기반 독촉 큐·워커와 인앱·이메일·웹푸시 알림 구성",
+        "Docker Compose·Prisma·NextAuth·CI 파이프라인 구성"
+      ],
+      "icon": "ti-wallet",
+      "image": "./assets/yummpi-intro.png",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ezen04/yummpi",
+          "icon": "ti-brand-github"
+        },
+        {
+          "label": "Service",
+          "url": "https://yummpi.com",
+          "icon": "ti-external-link"
+        }
+      ]
+    },
     {
       "type": "team",
       "name": "이때어때",
